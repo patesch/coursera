@@ -1,0 +1,53 @@
+/********** site styles **********/
+
+body {
+	font: normal 16px/1em "Trebuchet MS", Arial, sans-serif;
+}
+
+h1 {
+  margin: 25px auto;
+  font-size: 1.75em;
+}
+
+section {
+	position: relative;
+	padding: 15px;
+	margin: 15px;
+	border: 1px solid black;
+}
+	section > .title {
+		position: absolute;
+		top: 0px;
+		right: 0;
+		margin-top: 0;
+		padding: 5px 25px;
+		border-left: 1px solid black;
+		border-bottom: 1px solid black;
+  		font-size: 1.25em;
+	}
+	section > p {
+		margin-top: 25px;
+  		line-height: 1.15em;
+	}
+
+.section-chicken {
+	background: #eee;
+}
+	.section-chicken > .title {
+		background: #D59898;
+	}
+
+.section-beef  {
+		background: #d9d9d9;
+	}
+	.section-beef > .title {
+		background: #C14543;
+		color: white;
+	}
+
+.section-sushi  {
+	background: #d4d4d4;
+}
+	.section-sushi > .title {
+		background: #E5D198;
+	}
